@@ -37,4 +37,46 @@ $(document).ready(function(){
             filter: filterValue
         });
     });
+
+
+    // NEW PHONES OWL CAROUSEL
+    $("#new-phones .owl-carousel").owlCarousel({
+        loop: true,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 5
+            }
+        }
+    });
+
+        // BLOGS OWL CAROUSEL
+        $("#blogs .owl-carousel").owlCarousel({
+            loop: true,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                }
+            }
+        });
+
+
+
+
+
+
+
+
 });
