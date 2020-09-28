@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     // BANNER OWL CAROUSEL
     $("#banner-area .owl-carousel").owlCarousel({
@@ -31,7 +31,7 @@ $(document).ready(function(){
     });
 
     // FILTER ITEMS ON BUTTON CLICK
-    $(".button-group").on('click', "button", function(){
+    $(".button-group").on('click', "button", function () {
         var filterValue = $(this).attr('data-filter');
         $grid.isotope({
             filter: filterValue
@@ -57,26 +57,44 @@ $(document).ready(function(){
         }
     });
 
-        // BLOGS OWL CAROUSEL
-        $("#blogs .owl-carousel").owlCarousel({
-            loop: true,
-            nav: false,
-            dots: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                }
+    // BLOGS OWL CAROUSEL
+    $("#blogs .owl-carousel").owlCarousel({
+        loop: true,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
             }
-        });
+        }
+    });
 
 
+    // Product Qty Section
 
+    let $qty_up = $(".qty .qty-up");
+    let $qty_down = $(".qty .qty-down");
+    // let $input = $(".qty .qty_input");
 
+    $qty_up.click(function (event) {
+        let $input = $(`.qty_input[data-id='${$(this).data("id")}']`);
+        if ($input.val() >= 1 && $input.val() < 10) {
+            $input.val((i, oldVal) => {
+                return ++oldVal;
+            });
+        }
+    });
 
-
-
+    $qty_down.click(function (event) {
+        let $input = $(`.qty_input[data-id='${$(this).data("id")}']`);
+        if ($input.val() > 1 && $input.val() <= 10) {
+            $input.val((i, oldVal) => {
+                return --oldVal;
+            });
+        }
+    });
 
 });
