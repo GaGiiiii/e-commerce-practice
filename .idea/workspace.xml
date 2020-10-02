@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="859c6639-3bee-42ca-ad67-2862aa5b5e46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/Banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/Banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/banner1-cr-500x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/banner2-cr-500x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/blog/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/blog/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/blog/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/blog/empty_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML Template/assets/products/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sass" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/.bin/sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sass.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/.bin/sass.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sass.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/.bin/sass.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/anymatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/anymatch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/anymatch/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/anymatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/anymatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/anymatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/binary-extensions/binary-extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/binary-extensions.json.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/binary-extensions/binary-extensions.json.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/binary-extensions/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/binary-extensions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/license" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/binary-extensions/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/binary-extensions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/binary-extensions/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/binary-extensions/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/lib/compile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/lib/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/expand.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/lib/expand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/lib/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/braces/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/braces/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/chokidar/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/chokidar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/chokidar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/chokidar/lib/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/fsevents-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/chokidar/lib/fsevents-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/nodefs-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/chokidar/lib/nodefs-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/chokidar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/chokidar/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/fill-range/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/fill-range/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/fill-range/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fill-range/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/fill-range/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/glob-parent/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/glob-parent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/glob-parent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob-parent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/glob-parent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-binary-path/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-binary-path/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/license" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-binary-path/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-binary-path/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-binary-path/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-binary-path/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extglob/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-extglob/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extglob/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-extglob/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extglob/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-extglob/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-extglob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-extglob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-glob/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-glob/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-glob/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-glob/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-glob/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-glob/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-glob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-glob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-number/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-number/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-number/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-number/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/is-number/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-path/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/normalize-path/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-path/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/normalize-path/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-path/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/normalize-path/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/normalize-path/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/normalize-path/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/lib/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/picomatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/lib/picomatch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/scan.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/lib/scan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/picomatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/picomatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/readdirp/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/readdirp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/readdirp/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/readdirp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/readdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/sass/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/sass/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/sass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/sass/sass.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass/sass.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/sass/sass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/to-regex-range/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/to-regex-range/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/to-regex-range/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-regex-range/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/node_modules/to-regex-range/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/include/color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/sass/include/color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/include/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/sass/include/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/include/special-price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/sass/include/special-price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/include/top-sale.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/sass/include/top-sale.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/include/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/sass/include/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/include/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/sass/include/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/HTML Template/style.css.map" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iKfK2EoiupcuHt4Esw7vVffwp7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML Template" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommerce\HTML Template" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ecommerce\HTML Template" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="859c6639-3bee-42ca-ad67-2862aa5b5e46" name="Default Changelist" comment="" />
+      <created>1601661140172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601661140172</updated>
+      <workItem from="1601661144095" duration="933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1238" y="0" key="#PHP" timestamp="1601661419776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1238" y="0" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1601661419776" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1601661362881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601661362881" />
+  </component>
+</project>
