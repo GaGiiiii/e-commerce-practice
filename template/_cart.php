@@ -6,88 +6,55 @@
         <!-- SHOPPING CART ITEMS -->
         <div class="row">
           <div class="col-sm-9">
-            <!-- CART ITEM -->
-            <div class="row border-top py-3 mt-3">
-              <div class="col-sm-2">
-                <img src="./assets/products/1.png" class="img-fluid" alt="" style="height: 120px;">
-              </div>
-              <div class="col-sm-8">
-                <h5 class="font-baloo font-size-20">Samsung Galaxy 10</h5>
-                <small>by Samsung</small>
-                <!-- RATING -->
-                <div class="d-flex">
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
-                  </div>
-                  <a href="#" class="px-2 font-rale font-size-14">20,354 ratings</a>
-                </div>
-                <!-- RATING -->
 
-                <!-- PRODUCT QTY -->
-                <div class="qty d-flex pt-2">
-                  <div class="d-flex font-rale w-25">
-                    <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
-                    <input data-id="pro1" type="text" class="qty_input border px-2 w-100 bg-light" disabled value="1"
-                      placeholder="1">
-                    <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+            <?php 
+              foreach($product->getData("cart") as $item) : 
+                $cart = $product->getProduct($item['item_id']);
+                array_map(function($item){
+            ?>
+              <!-- CART ITEM -->
+              <div class="row border-top py-3 mt-3">
+                <div class="col-sm-2">
+                  <img src="<?php echo $item['item_image'] ?? "./assets/products/1.png"; ?>" class="img-fluid" alt="" style="height: 120px;">
+                </div>
+                <div class="col-sm-8">
+                  <h5 class="font-baloo font-size-20"><?php echo $item['item_name'] ?? "Unknown"; ?></h5>
+                  <small>by <?php echo $item['item_brand'] ?? "Brand"; ?></small>
+                  <!-- RATING -->
+                  <div class="d-flex">
+                    <div class="rating text-warning font-size-12">
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="fas fa-star"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                    </div>
+                    <a href="#" class="px-2 font-rale font-size-14">20,354 ratings</a>
                   </div>
-                  <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
-                  <button type="submit" class="btn font-baloo text-danger">Save for Later</button>
-                </div>
-                <!-- PRODUCT QTY -->
-              </div>
-              <div class="col-sm-2 text-right">
-                <div class="font-size-20 text-danger font-baloo">
-                  $<span class="product_price">152</span>
-                </div>
-              </div>
-            </div>
-            <!-- CART ITEM -->
+                  <!-- RATING -->
 
-            <!-- CART ITEM -->
-            <div class="row border-top py-3 mt-3">
-              <div class="col-sm-2">
-                <img src="./assets/products/2.png" class="img-fluid" alt="" 2>
-              </div>
-              <div class="col-sm-8">
-                <h5 class="font-baloo font-size-20">Samsung Galaxy 10</h5>
-                <small>by Samsung</small>
-                <!-- RATING -->
-                <div class="d-flex">
-                  <div class="rating text-warning font-size-12">
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="fas fa-star"></i></span>
-                    <span><i class="far fa-star"></i></span>
+                  <!-- PRODUCT QTY -->
+                  <div class="qty d-flex pt-2">
+                    <div class="d-flex font-rale w-25">
+                      <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
+                      <input data-id="pro1" type="text" class="qty_input border px-2 w-100 bg-light" disabled value="1"
+                        placeholder="1">
+                      <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
+                    </div>
+                    <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
+                    <button type="submit" class="btn font-baloo text-danger">Save for Later</button>
                   </div>
-                  <a href="#" class="px-2 font-rale font-size-14">20,354 ratings</a>
+                  <!-- PRODUCT QTY -->
                 </div>
-                <!-- RATING -->
+                <div class="col-sm-2 text-right">
+                  <div class="font-size-20 text-danger font-baloo">
+                    $<span class="product_price"><?php echo $item['item_price'] ?? 0; ?></span>
+                  </div>
+                </div>
+              </div>
+              <!-- CART ITEM -->
+            <?php }, $cart); endforeach; ?>
 
-                <!-- PRODUCT QTY -->
-                <div class="qty d-flex pt-2">
-                  <div class="d-flex font-rale w-25">
-                    <button class="qty-up border bg-light"><i class="fas fa-angle-up"></i></button>
-                    <input type="text" class="qty_input border px-2 w-100 bg-light" disabled value="1" placeholder="1">
-                    <button class="qty-down border bg-light"><i class="fas fa-angle-down"></i></button>
-                  </div>
-                  <button type="submit" class="btn font-baloo text-danger px-3 border-right">Delete</button>
-                  <button type="submit" class="btn font-baloo text-danger">Save for Later</button>
-                </div>
-                <!-- PRODUCT QTY -->
-              </div>
-              <div class="col-sm-2 text-right">
-                <div class="font-size-20 text-danger font-baloo">
-                  $<span class="product_price">152</span>
-                </div>
-              </div>
-            </div>
-            <!-- CART ITEM -->
           </div>
           <div class="col-sm-3">
             <!-- SUBTOTAL -->

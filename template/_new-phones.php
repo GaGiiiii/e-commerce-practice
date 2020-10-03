@@ -1,3 +1,12 @@
+<?php  
+    shuffle($product_shuffle);
+
+    if($_SERVER['REQUEST_METHOD'] == "POST"){
+      if(isset($_POST['new_phones_submit'])){
+        $cart->addToCart($_POST['user_id'], $_POST['item_id']);
+      }
+    }
+?>
 <!-- NEW PHONES -->
 
 <section id="new-phones">
@@ -6,132 +15,33 @@
       <hr>
       <!-- OWL CAROUSEL -->
       <div class="owl-carousel owl-theme">
-        <div class="item py-2 bg-light">
-          <div class="product font-rale">
-            <a href="#">
-              <img src="./assets/products/1.png" class="img-fluid">
-            </a>
-            <div class="text-center">
-              <h6>Samsung Galaxy 10</h6>
-              <div class="rating text-warning font-size-12">
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="far fa-star"></i></span>
+        <?php foreach($product_shuffle as $item){ ?>
+          <div class="item py-2 bg-light">
+            <div class="product font-rale">
+              <a href="product.php?item_id=<?php echo $item['item_id']; ?>">
+                <img src="<?php echo $item['item_image'] ?? "./assets/products/1.png"; ?>" class="img-fluid">
+              </a>
+              <div class="text-center">
+                <h6><?php echo $item['item_name'] ?? "Unknown"; ?></h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$<?php echo $item['item_price'] ?? "0"; ?></span>
+                </div>
+                <form method="POST">
+                  <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? "1"; ?>">
+                  <input type="hidden" name="user_id" value="<?php echo 1; ?>">
+                  <button type="submit" name="new_phones_submit" class="btn btn-warning font-size-12">Add To Cart</button>
+                </form>
               </div>
-              <div class="price py-2">
-                <span>$152</span>
-              </div>
-              <button type="submit" class="btn btn-warning font-size-12">Add To Cart</button>
             </div>
           </div>
-        </div>
-        <div class="item py-2 bg-light">
-          <div class="product font-rale">
-            <a href="#">
-              <img src="./assets/products/2.png" class="img-fluid">
-            </a>
-            <div class="text-center">
-              <h6>Redmi Note 7</h6>
-              <div class="rating text-warning font-size-12">
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="far fa-star"></i></span>
-              </div>
-              <div class="price py-2">
-                <span>$152</span>
-              </div>
-              <button type="submit" class="btn btn-warning font-size-12">Add To Cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="item py-2 bg-light">
-          <div class="product font-rale">
-            <a href="#">
-              <img src="./assets/products/3.png" class="img-fluid">
-            </a>
-            <div class="text-center">
-              <h6>Mi 8</h6>
-              <div class="rating text-warning font-size-12">
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="far fa-star"></i></span>
-              </div>
-              <div class="price py-2">
-                <span>$152</span>
-              </div>
-              <button type="submit" class="btn btn-warning font-size-12">Add To Cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="item py-2 bg-light">
-          <div class="product font-rale">
-            <a href="#">
-              <img src="./assets/products/4.png" class="img-fluid">
-            </a>
-            <div class="text-center">
-              <h6>Samsung Galaxy 10</h6>
-              <div class="rating text-warning font-size-12">
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="far fa-star"></i></span>
-              </div>
-              <div class="price py-2">
-                <span>$152</span>
-              </div>
-              <button type="submit" class="btn btn-warning font-size-12">Add To Cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="item py-2 bg-light">
-          <div class="product font-rale">
-            <a href="#">
-              <img src="./assets/products/5.png" class="img-fluid">
-            </a>
-            <div class="text-center">
-              <h6>Samsung Galaxy 10</h6>
-              <div class="rating text-warning font-size-12">
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="far fa-star"></i></span>
-              </div>
-              <div class="price py-2">
-                <span>$152</span>
-              </div>
-              <button type="submit" class="btn btn-warning font-size-12">Add To Cart</button>
-            </div>
-          </div>
-        </div>
-        <div class="item py-2 bg-light">
-          <div class="product font-rale">
-            <a href="#">
-              <img src="./assets/products/6.png" class="img-fluid">
-            </a>
-            <div class="text-center">
-              <h6>Redmi Note 9</h6>
-              <div class="rating text-warning font-size-12">
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="fas fa-star"></i></span>
-                <span><i class="far fa-star"></i></span>
-              </div>
-              <div class="price py-2">
-                <span>$152</span>
-              </div>
-              <button type="submit" class="btn btn-warning font-size-12">Add To Cart</button>
-            </div>
-          </div>
-        </div>
+        <?php }?>
       </div>
       <!-- OWL CAROUSEL -->
     </div>

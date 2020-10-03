@@ -1,6 +1,13 @@
 <?php 
 
   $product_shuffle = $product->getData();
+  shuffle($product_shuffle);
+
+  if($_SERVER['REQUEST_METHOD'] == "POST"){
+    if(isset($_POST['top_sale_submit'])){
+      $cart->addToCart($_POST['user_id'], $_POST['item_id']);
+    }
+  }
 
 ?>
 
@@ -16,7 +23,7 @@
         <?php foreach($product_shuffle as $item){ ?>
           <div class="item py-2">
             <div class="product font-rale">
-              <a href="#">
+              <a href="product.php?item_id=<?php echo $item['item_id']; ?>">
                 <img src="<?php echo $item['item_image'] ?? "./assets/products/1.png"; ?>" class="img-fluid">
               </a>
               <div class="text-center">
@@ -31,7 +38,11 @@
                 <div class="price py-2">
                   <span>$<?php echo $item['item_price'] ?? "0"; ?></span>
                 </div>
-                <button type="submit" class="btn btn-warning font-size-12">Add To Cart</button>
+                <form method="POST">
+                  <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? "1"; ?>">
+                  <input type="hidden" name="user_id" value="<?php echo 1; ?>">
+                  <button type="submit" name="top_sale_submit" class="btn btn-warning font-size-12">Add To Cart</button>
+                </form>
               </div>
             </div>
           </div>

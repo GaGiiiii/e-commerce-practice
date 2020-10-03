@@ -24,4 +24,18 @@
 
       return $resultArray;
     }
+
+    public function getProduct($itemID = null, $table = 'product'){
+      if(isset($itemID)){
+        $result = $this->db->con->query("SELECT * FROM {$table} WHERE item_id = {$itemID}");
+        
+        $resultArray = array();
+
+        while($item = mysqli_fetch_array($result, true)){
+          $resultArray[] = $item;
+        }
+  
+        return $resultArray;
+      }
+    }
   }
