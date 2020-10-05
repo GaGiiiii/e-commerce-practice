@@ -1,7 +1,12 @@
-<?php include("header.php"); ?>
+<?php 
 
-<?php include("./template/_cart.php"); ?>
+  include("header.php"); 
 
-<?php include("./template/_new-phones.php"); ?>
+  count($product->getData('cart')) ? include("./template/_cart.php") : include("./template/notFound/_cart_not_found.php") ; 
 
-<?php include("footer.php"); ?>
+  count($product->getData('wishlist')) ? include("./template/_whishlist_template.php") : include("./template/notFound/_wishlist_not_found.php") ; 
+
+  include("./template/_new-phones.php"); 
+
+  include("footer.php"); 
+  

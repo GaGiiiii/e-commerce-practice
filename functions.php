@@ -10,5 +10,3 @@
   $product_shuffle = $product->getData();
 
   $cart = new Cart($db);
-
-  print_r($cart->getCartId($product->getData('cart')));
