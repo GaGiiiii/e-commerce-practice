@@ -80,6 +80,10 @@ $(document).ready(function () {
     // let $input = $(".qty .qty_input");
 
     $qty_up.click(function (event) {
+
+        $.ajax()
+
+
         let $input = $(`.qty_input[data-id='${$(this).data("id")}']`);
         if ($input.val() >= 1 && $input.val() < 10) {
             $input.val((i, oldVal) => {
